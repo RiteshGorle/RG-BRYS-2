@@ -1,0 +1,350 @@
+/* WebSite Name: Bryzos
+   Made by: Ritesh Gorle
+   Created: june 2022
+   Content: Data
+*/
+
+/*****************************************
+Table Of Contents:
+
+01. BASIC CSS Style
+02. SIDE NAVIGATION
+03. SEARCH BAR and navigation
+04. SECTION 03 VERY SMALL ROW
+05. SECTION 03 LIST/GRID
+
+******************************************/
+
+
+/******************************/
+/*    01. BASIC CSS Style     */
+/******************************/
+
+body {
+  font-family:  sans-serif;
+}
+
+
+/******************************/
+/*    02. SIDE NAVIGATION     */
+/******************************/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+ background: url('bg.PNG');
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .my4:hover {
+  color: white;
+  background-color: gray ;
+}
+
+
+#my4:hover {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/************* LOGO *************/
+.log{
+   position: absolute;
+  top: 10px;
+  left: 25px;
+  
+  margin-right: 50px;
+
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*****************************************/
+/*   03. SEARCH BAR and navigation       */
+/****************************************/
+form.example input[type=text] {
+  padding: 6px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 200px;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+form.example button {
+  float: left;
+  width: 30px;
+  padding: 6px;
+  background: #666666;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar-nav{
+ text-align: center;
+}
+
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/*************************************/
+/* 04. SECTION 03 VERY SMALL ROW     */
+/************************************/
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+
+/************* LOGO *************/
+.sec3ro{
+  font-size: 14px;
+}
+
+
+/************* BUTTON : Apply For Net Terms *************/
+.my{
+   width: 120px;
+   font-size: 8px;
+ }
+
+/************* BUTTON : Setup Your Store *************/
+.my1 {
+  width: 100px;
+  font-size: 8px;
+}
+
+/************* BUTTON : Go To BryzosPay *************/
+.my2{
+  float: right;
+ }
+
+
+/************* BUTTON : Go To BryzosPay *************/
+.bad{
+  width: 50px;
+  font-size: 7px ;
+  position: absolute;
+  top: 6px;
+  left: 25px;
+  margin-right: 50px;
+}
+
+
+/************* SVG ICON *************/
+.sv{
+  position: absolute;
+  top: 4px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+/************* SECTION 3 IMAGES *************/
+.sec3img{
+ width: 80px;
+}
+
+
+/************* SECTION 3 PARAGRAPH SIZE *************/
+.sec3p{
+  font-size: 10px;
+}
+
+
+
+/************* SECTION 3 DROPDOWN MENU *************/
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-menu, a {
+ float: left;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+
+.dropdown-menu, a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+
+}
+
+
+
+/******************************/
+/* 05. SECTION 03 LIST/GRID   */
+/******************************/
+.item{
+  background-color: white;
+}
+
+/************* SECTION 3 : Notifications Feed  *************/
+.sec3ver{
+  font-size: 16px ;
+  font-weight: 600;
+  position: absolute;
+  top: 6px;
+  left: 25px;
+  margin-right: 50px;
+}
+
+/************* SECTION 3 : GEAR SETTING ICON  *************/
+.sec3ver2{
+  position: absolute;
+  top: 4px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+
+/************* SECTION 3 : LIST/GRID LEFT BORDER  *************/
+.lit{
+  border-left: solid 3px red;
+}
+
+.lit1 {
+  border-left: solid 3px blue;
+}
+.lit2 {
+  border-left: solid 3px #00e600;
+}
+.lit3 {
+  border-left: solid 3px orange;
+}
+.lit4{
+  border-left: solid 3px #00e600;
+}
+
+/************* SECTION 3 : LIST/GRID H6 HEADING  *************/
+.sect3lithed{
+  font-size: 12px;
+}
+
+/************* SECTION 3 : LIST/GRID PARAGRAPH  *************/
+.sect3lit{
+  font-size: 10px;
+}
+
+/************* SECTION 3 : LIST/GRID X CIRCLE ICON SVG FILE  *************/
+.sv1{
+  float: right;
+}
+
+/* (A) LIST VIEW BY DEFAULT */
+#lgDemo {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+
+}
+#lgDemo .item {
+  padding: 4px;
+  border: 1px solid #ddd;
+}
+#lgDemo .item:nth-child(odd) { background: white; }
+
+/* (B) TRANSFORM INTO GRID VIEW */
+#lgDemo.grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+#lgDemo.grid .item:nth-child(odd) { background: none; }
+
+
+
+
